@@ -1,12 +1,5 @@
-{{> menu id="dashboard"}}
-
-{{#each members}}
-  <section class="ui segment">
-    <h2 class="ui header">
-      {{membername}}
-    </h2>
-    <table class="ui table">
-      <thead>
+<table class="ui table">
+    <thead>
         <tr>
           <th>Weight</th>
           <th>Chest</th>
@@ -15,12 +8,11 @@
           <th>Waist</th>
           <th>Hips</th>
           <th>Comment</th>
-          
         </tr>
       </thead>
-      <tbody>
-        {{#each assessments}}
-          <tr>
+  <tbody>
+    {{#each playlist.songs}}
+      <tr>
             <td>
               {{weight}}
             </td>
@@ -42,10 +34,7 @@
             <td>
               {{comment}}
             </td>
-            
           </tr>
-        {{/each}}
-      </tbody>
-    </table>
-  </section>
-{{/each}}
+    {{/each}}
+  </tbody>
+</table>

@@ -1,0 +1,131 @@
+{
+  "memberCollection": [
+    {
+      "id" : "01",
+      "membername": "Member 1",
+      "assessments": [
+        {
+          "id" : "11",
+          "weight": 22,
+          "chest": 22,
+          "thigh": 22,
+          "upperarm": 22,
+          "waist": 22,
+          "hips": 22,
+          "comment": 22,
+          "trend": 22,
+          "date": 22
+          
+        },
+        {
+          "id" : "12",
+          "weight": 22,
+          "chest": 22,
+          "thigh": 22,
+          "upperarm": 22,
+          "waist": 22,
+          "hips": 22,
+          "comment": 22,
+          "trend": 22,
+          "date": 22
+        },
+        {
+          "id" : "13",
+          "weight": 22,
+          "chest": 22,
+          "thigh": 22,
+          "upperarm": 22,
+          "waist": 22,
+          "hips": 22,
+          "comment": 22,
+          "trend": 22,
+          "date": 22
+        }
+      ]
+    },
+    {
+      "id" : "02",
+      "membername": "Member 2",
+      "assessments": [
+        {
+          "id" : "21",
+          "weight": 22,
+          "chest": 22,
+          "thigh": 22,
+          "upperarm": 22,
+          "waist": 22,
+          "hips": 22,
+          "comment": 22,
+          "trend": 22,
+          "date": 22
+        },
+        {
+          "id" : "22",
+          "weight": 22,
+          "chest": 22,
+          "thigh": 22,
+          "upperarm": 22,
+          "waist": 22,
+          "hips": 22,
+          "comment": 22,
+          "trend": 22,
+          "date": 22
+        },
+        {
+          "id" : "23",
+          "weight": 22,
+          "chest": 22,
+          "thigh": 22,
+          "upperarm": 22,
+          "waist": 22,
+          "hips": 22,
+          "comment": 22,
+          "trend": 22,
+          "date": 22
+        }
+      ]
+    },
+    {
+      "id" : "03",
+      "membername": "Member 3",
+      "assessments": [
+        {
+          "id" : "31",
+          "weight": 22,
+          "chest": 22,
+          "thigh": 22,
+          "upperarm": 22,
+          "waist": 22,
+          "hips": 22,
+          "comment": 22,
+          "trend": 22,
+          "date": 22
+        },
+        {
+          "id" : "32",
+          "weight": 22,
+          "chest": 22,
+          "thigh": 22,
+          "upperarm": 22,
+          "waist": 22,
+          "hips": 22,
+          "comment": 22,
+          "trend": 22,
+          "date": 22
+        },
+        {
+          "id" : "33",
+          "weight": 22,
+          "chest": 22,
+          "thigh": 22,
+          "upperarm": 22,
+          "waist": 22,
+          "hips": 22,
+          "comment": 22,
+          "trend": 22,
+          "date": 22
+        }
+      ]
+    }
+  ]
+}
