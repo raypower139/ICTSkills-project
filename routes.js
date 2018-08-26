@@ -15,5 +15,7 @@ router.get('/member/:id/deleteassessment/:assessmentid', member.deleteAssessment
 router.get('/dashboard/deletemember/:id', dashboard.deleteMember);
 
 router.post('/member/:id/addassessment', member.addAssessment);
+router.post('/dashboard/addmember', dashboard.addMember);
+
 
 module.exports = router;

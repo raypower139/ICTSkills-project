@@ -1,17 +1,17 @@
 {
   "memberCollection": [
     {
-      "id" : "01",
+      "id": "01",
       "membername": "Member 1",
       "email": "member1@ictskills.com",
       "password": "secret",
       "address": "45 Main Street, Cork",
       "gender": "Male",
       "height": "176",
-      "startingweight":"86.0",
+      "startingweight": "86.0",
       "assessments": [
         {
-          "id" : "11",
+          "id": "11",
           "weight": 22,
           "chest": 22,
           "thigh": 22,
@@ -21,10 +21,9 @@
           "comment": 22,
           "trend": 22,
           "date": 22
-          
         },
         {
-          "id" : "12",
+          "id": "12",
           "weight": 22,
           "chest": 22,
           "thigh": 22,
@@ -34,10 +33,9 @@
           "comment": 22,
           "trend": 22,
           "date": 22
-          
         },
         {
-          "id" : "13",
+          "id": "13",
           "weight": 22,
           "chest": 22,
           "thigh": 22,
@@ -47,22 +45,21 @@
           "comment": 22,
           "trend": 22,
           "date": 22
-          
         }
       ]
     },
     {
-      "id" : "02",
+      "id": "02",
       "membername": "Member 2",
       "email": "member2@ictskills.com",
       "password": "secret",
       "address": "45 Main Street, Cork",
       "gender": "Male",
       "height": "176",
-      "startingweight":"86.0",
+      "startingweight": "86.0",
       "assessments": [
         {
-          "id" : "21",
+          "id": "21",
           "weight": 22,
           "chest": 22,
           "thigh": 22,
@@ -74,7 +71,7 @@
           "date": 22
         },
         {
-          "id" : "22",
+          "id": "22",
           "weight": 22,
           "chest": 22,
           "thigh": 22,
@@ -86,7 +83,7 @@
           "date": 22
         },
         {
-          "id" : "23",
+          "id": "23",
           "weight": 22,
           "chest": 22,
           "thigh": 22,
@@ -100,17 +97,17 @@
       ]
     },
     {
-      "id" : "03",
+      "id": "03",
       "membername": "Member 3",
       "email": "member3@ictskills.com",
       "password": "secret",
       "address": "45 Main Street, Cork",
       "gender": "Male",
       "height": "176",
-      "startingweight":"86.0",
+      "startingweight": "86.0",
       "assessments": [
         {
-          "id" : "31",
+          "id": "31",
           "weight": 22,
           "chest": 22,
           "thigh": 22,
@@ -122,7 +119,7 @@
           "date": 22
         },
         {
-          "id" : "32",
+          "id": "32",
           "weight": 22,
           "chest": 22,
           "thigh": 22,
@@ -134,7 +131,7 @@
           "date": 22
         },
         {
-          "id" : "33",
+          "id": "33",
           "weight": 22,
           "chest": 22,
           "thigh": 22,
@@ -144,6 +141,14 @@
           "comment": 22,
           "trend": 22,
           "date": 22
+        },
+        {
+          "weight": "44",
+          "chest": "",
+          "thigh": "",
+          "upperarm": "",
+          "waist": "",
+          "hips": ""
         }
       ]
     }

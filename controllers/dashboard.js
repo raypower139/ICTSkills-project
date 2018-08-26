@@ -2,6 +2,7 @@
 
 const logger = require('../utils/logger');
 const memberStore = require('../models/member-store.js');
+const uuid = require('uuid');
 
 const dashboard = {
   index(request, response) {
@@ -12,6 +13,22 @@ const dashboard = {
     };
     logger.info('about to render', memberStore.getAllMembers());
     response.render('dashboard', viewData);
+  },
+  
+   addMember(request, response) {
+    const newMember = {
+      id: uuid(),
+      membername: request.body.membername,
+      email: request.body.email,
+      password: request.body.password,
+      address: request.body.address,
+      gender: request.body.gender,
+      height: request.body.height,
+      startingweight: request.body.startingweight,
+      assessments: [],
+    };
+    memberStore.addMember(newMember);
+    response.redirect('/dashboard');
   },
   
    deleteMember(request, response) {
