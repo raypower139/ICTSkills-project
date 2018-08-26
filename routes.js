@@ -12,7 +12,7 @@ router.get('/dashboard', dashboard.index);
 router.get('/about', about.index);
 router.get('/member/:id', member.index);
 router.get('/member/:id/deleteassessment/:assessmentid', member.deleteAssessment);
-
+router.get('/dashboard/deletemember/:id', dashboard.deleteMember);
 
 router.post('/member/:id/addassessment', member.addAssessment);
 

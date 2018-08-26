@@ -24,6 +24,11 @@ memberCollection:require('./member-store.json').memberCollection,
     // remove the assessment with id assessemntId from the member
       _.remove(member.assessments, { id: assessmentId });
   },
+  
+   removeMember(id) {
+    _.remove(this.memberCollection, { id: id });
+  },
+  
 }; 
 
 module.exports = memberStore;

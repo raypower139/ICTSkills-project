@@ -1,11 +1,5 @@
 {{> menu id="dashboard"}}
 
-{{#each members}}
-  <section class="ui segment">
-    <h2 class="ui header">
-      {{membername}}
-    </h2>
-    <p> Total Duration: {{duration}} </p>
-    <a href="/member/{{id}}"> View </a>
-  </section>
-{{/each}}
+<section class="ui segment">
+  {{> listmembers}}
+</section>
