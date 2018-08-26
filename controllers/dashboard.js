@@ -3,10 +3,19 @@
 const logger = require('../utils/logger');
 const memberStore = require('../models/member-store.js');
 const uuid = require('uuid');
+const accounts = require('./accounts.js');
 
 const dashboard = {
   index(request, response) {
     logger.info('dashboard rendering');
+    
+    const loggedInUser = accounts.getCurrentMember(request);
+     if (loggedInUser.trainer === true) {
+      logger.info('This user is a trainer');
+      response.redirect('/signup');
+    }
+    else{
+    
     const viewData = {
       
       title: 'Member Dashboard',
@@ -14,6 +23,7 @@ const dashboard = {
     };
     logger.info('about to render', memberStore.getAllMembers());
     response.render('dashboard', viewData);
+    }
   },
   
    addMember(request, response) {
