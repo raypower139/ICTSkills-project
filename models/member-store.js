@@ -18,6 +18,13 @@ memberCollection:require('./member-store.json').memberCollection,
 
     return foundMember;
   },
-};
+  
+   addAssessment(id, assessment) {
+    const member = this.getMember(id);
+    member.assessments.push(assessment);
+  },
+  
+  
+}; 
 
 module.exports = memberStore;

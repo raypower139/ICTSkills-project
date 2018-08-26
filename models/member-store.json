@@ -3,6 +3,12 @@
     {
       "id" : "01",
       "membername": "Member 1",
+      "email": "member1@ictskills.com",
+      "password": "secret",
+      "address": "45 Main Street, Cork",
+      "gender": "Male",
+      "height": "176",
+      "startingweight":"86.0",
       "assessments": [
         {
           "id" : "11",
@@ -28,6 +34,7 @@
           "comment": 22,
           "trend": 22,
           "date": 22
+          
         },
         {
           "id" : "13",
@@ -40,12 +47,19 @@
           "comment": 22,
           "trend": 22,
           "date": 22
+          
         }
       ]
     },
     {
       "id" : "02",
       "membername": "Member 2",
+      "email": "member2@ictskills.com",
+      "password": "secret",
+      "address": "45 Main Street, Cork",
+      "gender": "Male",
+      "height": "176",
+      "startingweight":"86.0",
       "assessments": [
         {
           "id" : "21",
@@ -88,6 +102,12 @@
     {
       "id" : "03",
       "membername": "Member 3",
+      "email": "member3@ictskills.com",
+      "password": "secret",
+      "address": "45 Main Street, Cork",
+      "gender": "Male",
+      "height": "176",
+      "startingweight":"86.0",
       "assessments": [
         {
           "id" : "31",

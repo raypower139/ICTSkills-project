@@ -12,5 +12,6 @@ router.get('/dashboard', dashboard.index);
 router.get('/about', about.index);
 router.get('/member/:id', member.index);
 
+router.post('/member/:id/addassessment', member.addAssessment);
 
 module.exports = router;
