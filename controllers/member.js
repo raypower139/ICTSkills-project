@@ -33,6 +33,15 @@ const member = {
     memberStore.addAssessment(memberId, newAssessment);
     response.redirect('/member/' + memberId);
   },
+  
+   deleteAssessment(request, response) {
+    const memberId = request.params.id;
+    const assessmentId = request.params.assessmentid;
+    logger.debug(`Deleting Assessment ${assessmentId} from Member ${memberId}`);
+    memberStore.removeAssessment(memberId, assessmentId);
+    response.redirect('/member/' + memberId);
+  },
+
 };
 
 module.exports = member;
