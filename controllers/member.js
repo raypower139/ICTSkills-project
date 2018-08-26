@@ -2,6 +2,7 @@
 
 const logger = require('../utils/logger');
 const memberStore = require('../models/member-store.js');
+const uuid = require('uuid');
 
 const member = {
   index(request, response) {
@@ -20,7 +21,7 @@ const member = {
     const memberId = request.params.id;
     const member = memberStore.getMember(memberId);
     const newAssessment = {
-      
+      id: uuid(),
       weight: request.body.weight,
       chest: request.body.chest,
       thigh: request.body.thigh,
@@ -30,6 +31,7 @@ const member = {
       comment: request.body.comment,
       
     };
+    logger.debug('New Assessment = ', newAssessment);
     memberStore.addAssessment(memberId, newAssessment);
     response.redirect('/member/' + memberId);
   },

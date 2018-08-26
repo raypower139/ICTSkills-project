@@ -1,156 +1,24 @@
 {
   "memberCollection": [
     {
-      "id": "01",
-      "membername": "Member 1",
-      "email": "member1@ictskills.com",
+      "membername": "homer",
+      "email": "homer@simpson.com",
       "password": "secret",
-      "address": "45 Main Street, Cork",
-      "gender": "Male",
-      "height": "176",
-      "startingweight": "86.0",
-      "assessments": [
-        {
-          "id": "11",
-          "weight": 22,
-          "chest": 22,
-          "thigh": 22,
-          "upperarm": 22,
-          "waist": 22,
-          "hips": 22,
-          "comment": 22,
-          "trend": 22,
-          "date": 22
-        },
-        {
-          "id": "12",
-          "weight": 22,
-          "chest": 22,
-          "thigh": 22,
-          "upperarm": 22,
-          "waist": 22,
-          "hips": 22,
-          "comment": 22,
-          "trend": 22,
-          "date": 22
-        },
-        {
-          "id": "13",
-          "weight": 22,
-          "chest": 22,
-          "thigh": 22,
-          "upperarm": 22,
-          "waist": 22,
-          "hips": 22,
-          "comment": 22,
-          "trend": 22,
-          "date": 22
-        }
-      ]
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0",
+      "trainer": true
     },
     {
-      "id": "02",
-      "membername": "Member 2",
-      "email": "member2@ictskills.com",
+      "membername": "marge",
+      "email": "marge@simpson.com",
       "password": "secret",
-      "address": "45 Main Street, Cork",
-      "gender": "Male",
-      "height": "176",
-      "startingweight": "86.0",
-      "assessments": [
-        {
-          "id": "21",
-          "weight": 22,
-          "chest": 22,
-          "thigh": 22,
-          "upperarm": 22,
-          "waist": 22,
-          "hips": 22,
-          "comment": 22,
-          "trend": 22,
-          "date": 22
-        },
-        {
-          "id": "22",
-          "weight": 22,
-          "chest": 22,
-          "thigh": 22,
-          "upperarm": 22,
-          "waist": 22,
-          "hips": 22,
-          "comment": 22,
-          "trend": 22,
-          "date": 22
-        },
-        {
-          "id": "23",
-          "weight": 22,
-          "chest": 22,
-          "thigh": 22,
-          "upperarm": 22,
-          "waist": 22,
-          "hips": 22,
-          "comment": 22,
-          "trend": 22,
-          "date": 22
-        }
-      ]
+      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
+      "trainer": true
     },
     {
-      "id": "03",
-      "membername": "Member 3",
-      "email": "member3@ictskills.com",
+      "membername": "Raymond Power",
+      "email": "ray@gmail.com",
       "password": "secret",
-      "address": "45 Main Street, Cork",
-      "gender": "Male",
-      "height": "176",
-      "startingweight": "86.0",
-      "assessments": [
-        {
-          "id": "31",
-          "weight": 22,
-          "chest": 22,
-          "thigh": 22,
-          "upperarm": 22,
-          "waist": 22,
-          "hips": 22,
-          "comment": 22,
-          "trend": 22,
-          "date": 22
-        },
-        {
-          "id": "32",
-          "weight": 22,
-          "chest": 22,
-          "thigh": 22,
-          "upperarm": 22,
-          "waist": 22,
-          "hips": 22,
-          "comment": 22,
-          "trend": 22,
-          "date": 22
-        },
-        {
-          "id": "33",
-          "weight": 22,
-          "chest": 22,
-          "thigh": 22,
-          "upperarm": 22,
-          "waist": 22,
-          "hips": 22,
-          "comment": 22,
-          "trend": 22,
-          "date": 22
-        },
-        {
-          "weight": "44",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        }
-      ]
+      "id": "2cc2aca8-3010-4ef2-96da-e757620112d4"
     }
   ]
 }

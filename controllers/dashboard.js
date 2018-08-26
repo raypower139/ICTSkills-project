@@ -8,6 +8,7 @@ const dashboard = {
   index(request, response) {
     logger.info('dashboard rendering');
     const viewData = {
+      
       title: 'Member Dashboard',
       members: memberStore.getAllMembers(),
     };
