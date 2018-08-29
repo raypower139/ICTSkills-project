@@ -5,28 +5,22 @@ const memberStore = require('../models/member-store.js');
 const uuid = require('uuid');
 const accounts = require('./accounts.js');
 
-const dashboard = {
+const trainerdashboard = {
   index(request, response) {
-    logger.info('dashboard rendering');
-    
-    const loggedInUser = accounts.getCurrentMember(request);
-     if (loggedInUser.trainer === true) {
-      logger.info('This user is a trainer');
-      response.redirect('/trainerdashboard');
-    }
-    else{
+    logger.info('Trainer dashboard rendering');
     
     const viewData = {
       
-      title: 'Member Dashboard',
-      members: memberStore.getMemberById(),
+      title: 'Trainer Dashboard',
+      members: memberStore.getAllMembers(),
     };
-    logger.info('about to render', memberStore.getMemberById());
-    response.render('dashboard', viewData);
-    }
+    logger.info('about to render', memberStore.getAllMembers());
+    response.render('trainerdashboard', viewData);
+    
   },
   
-     addMember(request, response) {
+    
+   addMember(request, response) {
     const newMember = {
       id: uuid(),
       membername: request.body.membername,
@@ -42,7 +36,6 @@ const dashboard = {
     response.redirect('/dashboard');
   },
   
-  
    deleteMember(request, response) {
     const memberId = request.params.id;
     logger.debug(`Deleting Member ${memberId}`);
@@ -51,4 +44,4 @@ const dashboard = {
   },
 };
 
-module.exports = dashboard;
+module.exports = trainerdashboard;

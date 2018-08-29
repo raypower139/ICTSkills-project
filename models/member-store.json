@@ -1,24 +1,53 @@
 {
   "memberCollection": [
     {
+      "id": "3ad52697-6d98-4d80-8273-084de55a86c0",
       "membername": "homer",
       "email": "homer@simpson.com",
       "password": "secret",
-      "id": "3ad52697-6d98-4d80-8273-084de55a86c0",
-      "trainer": true
-    },
-    {
-      "membername": "marge",
-      "email": "marge@simpson.com",
-      "password": "secret",
-      "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751",
-      "trainer": true
+      "address": "",
+      "gender": "",
+      "height": "",
+      "startingweight": "",
+      "trainer": true,
+      "assessments": [
+        {
+          "id": "02861cc5-f090-43ce-acf8-86aa8c5d19d8",
+          "weight": "33",
+          "chest": "",
+          "thigh": "",
+          "upperarm": "",
+          "waist": "",
+          "hips": ""
+        }
+      ]
     },
     {
       "membername": "Raymond Power",
       "email": "ray@gmail.com",
       "password": "secret",
-      "id": "2cc2aca8-3010-4ef2-96da-e757620112d4"
+      "id": "6cb6ed4f-f740-4622-858e-8d6a05e72f6b"
+    },
+    {
+      "id": "adfb44b4-c6d6-4ee0-94e4-97c882f1ab04",
+      "membername": "dd",
+      "email": "",
+      "password": "",
+      "address": "",
+      "gender": "",
+      "height": "",
+      "startingweight": "",
+      "assessments": [
+        {
+          "id": "3a7ba6e2-246c-42ba-9800-e4748b31caa4",
+          "weight": "2",
+          "chest": "",
+          "thigh": "",
+          "upperarm": "",
+          "waist": "",
+          "hips": ""
+        }
+      ]
     }
   ]
 }
