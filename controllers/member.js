@@ -3,6 +3,7 @@
 const logger = require('../utils/logger');
 const memberStore = require('../models/member-store.js');
 const uuid = require('uuid');
+const dashboard = require('./dashboard.js');
 
 const member = {
   index(request, response) {
@@ -11,7 +12,7 @@ const member = {
     const viewData = {
       title:'Member',
       member:memberStore.getMember(memberId),
-      
+      bmi:'2',
       
     };
     response.render('member', viewData);
@@ -42,6 +43,22 @@ const member = {
     logger.debug(`Deleting Assessment ${assessmentId} from Member ${memberId}`);
     memberStore.removeAssessment(memberId, assessmentId);
     response.redirect('/member/' + memberId);
+  },
+  
+  addMember(request, response) {
+    const newMember = {
+      id: uuid(),
+      membername: request.body.membername,
+      email: request.body.email,
+      password: request.body.password,
+      address: request.body.address,
+      gender: request.body.gender,
+      height: request.body.height,
+      startingweight: request.body.startingweight,
+      assessments: [],
+    };
+    memberStore.addMember(newMember);
+    response.redirect('/dashboard');
   },
 
 };

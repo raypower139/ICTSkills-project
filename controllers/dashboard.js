@@ -4,6 +4,7 @@ const logger = require('../utils/logger');
 const memberStore = require('../models/member-store.js');
 const uuid = require('uuid');
 const accounts = require('./accounts.js');
+const member = require('./member.js');
 
 const dashboard = {
   index(request, response) {
@@ -19,10 +20,13 @@ const dashboard = {
     const viewData = {
       
       title: 'Member Dashboard',
-      members: memberStore.getMemberById(),
+      
+      members: memberStore.getMemberById(loggedInUser.id),
+      member: loggedInUser,
+     
     };
     logger.info('about to render', memberStore.getMemberById());
-    response.render('dashboard', viewData);
+    response.render('member', viewData);
     }
   },
   
@@ -40,6 +44,25 @@ const dashboard = {
     };
     memberStore.addMember(newMember);
     response.redirect('/dashboard');
+  },
+  
+   addAssessment(request, response) {
+    const memberId = request.params.id;
+    const member = memberStore.getMember(memberId);
+    const newAssessment = {
+      id: uuid(),
+      weight: request.body.weight,
+      chest: request.body.chest,
+      thigh: request.body.thigh,
+      upperarm: request.body.upperarm,
+      waist: request.body.waist,
+      hips: request.body.hips,
+      comment: request.body.comment,
+      
+    };
+    logger.debug('New Assessment = ', newAssessment);
+    memberStore.addAssessment(memberId, newAssessment);
+    response.redirect('/member/' + memberId);
   },
   
   

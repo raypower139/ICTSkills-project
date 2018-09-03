@@ -36,11 +36,22 @@ const accounts = {
   
   
   register(request, response) {
-    const member = request.body;
-    member.id = uuid();
+    const member = {
+      id: uuid(),
+      membername: request.body.membername,
+      email: request.body.email,
+      password: request.body.password,
+      address: request.body.address,
+      gender: request.body.gender,
+      height: request.body.height,
+      startingweight: request.body.startingweight,
+      assessments: [],
+    }
+    
+    
     memberStore.addMember(member);
     logger.info(`registering ${member.email}`);
-    response.redirect('/');
+    response.redirect('/login');
   },
 
   authenticate(request, response) {
