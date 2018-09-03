@@ -51,6 +51,7 @@ const dashboard = {
     const member = memberStore.getMember(memberId);
     const newAssessment = {
       id: uuid(),
+      date:new Date(),
       weight: request.body.weight,
       chest: request.body.chest,
       thigh: request.body.thigh,

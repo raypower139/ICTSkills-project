@@ -14,6 +14,7 @@ const member = {
       member:memberStore.getMember(memberId),
       bmi:'2',
       
+      
     };
     response.render('member', viewData);
   },
@@ -21,8 +22,12 @@ const member = {
    addAssessment(request, response) {
     const memberId = request.params.id;
     const member = memberStore.getMember(memberId);
+    const dates = new Date();
     const newAssessment = {
       id: uuid(),
+      day: dates.getDay(), 
+      month:dates.getMonth(),
+      year:dates.getFullYear(),
       weight: request.body.weight,
       chest: request.body.chest,
       thigh: request.body.thigh,

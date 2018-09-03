@@ -2,7 +2,7 @@
   "members": [
     {
       "id": "3ad52697-6d98-4d80-8273-084de55a86c0",
-      "membername": "homer",
+      "membername": "Homer",
       "email": "homer@simpson.com",
       "password": "secret",
       "address": "",
@@ -12,73 +12,34 @@
       "trainer": true,
       "assessments": [
         {
-          "id": "02861cc5-f090-43ce-acf8-86aa8c5d19d8",
-          "weight": "33",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
+          "id": "41c798b8-f9f9-4575-9b8d-943159e661f3",
+          "day": 1,
+          "month": 8,
+          "year": 2018,
+          "weight": "78",
+          "chest": "34",
+          "thigh": "22",
+          "upperarm": "13",
+          "waist": "32",
+          "hips": "40"
         },
         {
-          "id": "d1e9b540-e89a-4f8b-8047-47a94837d342",
-          "weight": "",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "4292f2b7-cb3d-4f8b-aa36-7e42c563bfeb",
-          "weight": "2",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "f31eb4b3-9fb5-4d84-b75b-a039cd7a3b9e",
-          "weight": "2",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "4ef89215-aed2-444f-abcd-1b65a296d724",
-          "weight": "2",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "929a3612-b6c8-4934-b500-bafdcd2d46be",
-          "weight": "2",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "59ab789f-1e62-4521-944d-e4e06fe4867c",
-          "weight": "1",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
+          "id": "339d2a45-1c40-49f3-916f-1398b8138523",
+          "day": 1,
+          "month": 8,
+          "year": 2018,
+          "weight": "77",
+          "chest": "33",
+          "thigh": "21",
+          "upperarm": "12",
+          "waist": "31",
+          "hips": "39"
         }
       ]
     },
     {
       "id": "2ad52697-6d98-4d80-8273-084de55a86c0",
-      "membername": "marge",
+      "membername": "Marge",
       "email": "marge@simpson.com",
       "password": "secret",
       "address": "",
@@ -88,76 +49,16 @@
       "trainer": true,
       "assessments": [
         {
-          "id": "01861cc5-f090-43ce-acf8-86aa8c5d19d8",
-          "weight": "33",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "3cdd4ffe-c1f4-436e-a2b2-fe66b2f11eb7",
-          "weight": "2",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "eda749fa-9d08-4760-9859-965de6385685",
-          "weight": "2",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "7ddfe3e4-58cc-4ff7-af3d-3278b6554335",
-          "weight": "2",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "d34965ee-530f-4a3d-9c6c-8258d871f7c8",
-          "weight": "21",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "88f7a54b-3719-4a9c-a043-964063089aec",
-          "weight": "21",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "882661bc-6d23-4cb9-b16a-edc6dc07671f",
-          "weight": "21",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "ce1c67e4-ec3b-46ba-a04e-91d510cc6790",
-          "weight": "21",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
+          "id": "929db7e1-b8be-4a60-bf69-7a52a4c222ad",
+          "day": 1,
+          "month": 8,
+          "year": 2018,
+          "weight": "67",
+          "chest": "33",
+          "thigh": "15",
+          "upperarm": "11",
+          "waist": "28",
+          "hips": "35"
         }
       ]
     },
@@ -172,102 +73,28 @@
       "startingweight": "",
       "assessments": [
         {
-          "id": "458b0519-888b-49e1-b9df-00925950af17",
-          "weight": "1",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
+          "id": "e87d33d4-de28-4bb0-9cfb-335a8354c96a",
+          "day": 1,
+          "month": 8,
+          "year": 2018,
+          "weight": "80",
+          "chest": "35",
+          "thigh": "15",
+          "upperarm": "12",
+          "waist": "34",
+          "hips": "36"
         },
         {
-          "id": "bdf8212c-cc93-4b4c-b1bd-68d66600ac20",
-          "weight": "1",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "4cba649d-3619-49eb-add4-4b5549161e09",
-          "weight": "1",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "c8f3b3f4-5a75-401d-b5f5-fa4f42c6f459",
-          "weight": "1",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        }
-      ]
-    },
-    {
-      "membername": "Mark",
-      "email": "Mark",
-      "password": "secret",
-      "id": "60addc94-114f-45a5-875f-5457af8d93b0"
-    },
-    {
-      "id": "51789004-4597-4383-b787-5ab5b603d043",
-      "membername": "Jeff",
-      "email": "Jeff",
-      "password": "secret",
-      "address": "",
-      "gender": "",
-      "height": "",
-      "startingweight": "",
-      "assessments": [
-        {
-          "id": "cb80f6d5-5b5c-44d2-a05b-92e553e19ae5",
-          "weight": "1",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "0f42f40c-25f5-4e86-a4b7-4716b33a92d9",
-          "weight": "1",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        }
-      ]
-    },
-    {
-      "id": "c3af08d0-1995-4b27-8715-d5efd0fd537e",
-      "membername": "Dave",
-      "email": "Dave",
-      "password": "secret",
-      "assessments": [
-        {
-          "id": "2e91e0cc-f73f-458b-92de-9a88b0a6cc4f",
-          "weight": "1",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
-        },
-        {
-          "id": "1c585aa2-fee8-444d-8e56-3df02d72a66a",
-          "weight": "1",
-          "chest": "",
-          "thigh": "",
-          "upperarm": "",
-          "waist": "",
-          "hips": ""
+          "id": "3444dadf-f6e5-4eb4-80ae-fc3e3df2ab00",
+          "day": 1,
+          "month": 8,
+          "year": 2018,
+          "weight": "79",
+          "chest": "35",
+          "thigh": "15",
+          "upperarm": "12",
+          "waist": "35",
+          "hips": "36"
         }
       ]
     }

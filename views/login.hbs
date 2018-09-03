@@ -1,12 +1,21 @@
 {{> welcomemenu id='login' }}
 
-<form class="ui stacked segment form" action="/authenticate" method="POST">
-  <h3 class="ui header">Log-in</h3>
-  <div class="field">
-    <label>Email</label> <input placeholder="Email" name="email">
-  </div>
-  <div class="field">
-    <label>Password</label> <input type="password"  name="password">
-  </div>
-  <button class="ui blue submit button">Login</button>
-</form>
+<div class="ui two column middle aligned grid basic segment">
+ <img class="ui image" src="https://cdn.glitch.com/edf06a37-37fc-4388-bb16-280a55220b6e%2Ftop_banner%20(1).jpg?1535914430491" width="1300px">
+ <div class="column">
+ <form class="ui stacked segment form" action="/authenticate" method="POST">
+ <h3 class="ui header">Log-in</h3>
+ <div class="field">
+ <label>Email</label> <input placeholder="Email" name="email">
+ </div>
+ <div class="field">
+ <label>Password</label> <input type="password" name="password">
+ </div>
+ <button class="ui blue submit button">Login</button>
+ </form>
+ </div>
+ <div class="column">
+ <img class="ui image" src="https://cdn.glitch.com/edf06a37-37fc-4388-bb16-280a55220b6e%2Fpower-fitness-800x800.jpg?1535913607606">
+ </div>
+</div>
+
